@@ -1,0 +1,9 @@
+%wrapper {
+    margin: auto;
+    max-width: 130rem;
+    width: 90%;
+
+    // @include media('<=phone') {
+    //     width: calc(100% - 5rem);
+    // }
+}

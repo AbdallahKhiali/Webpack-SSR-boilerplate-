@@ -1,0 +1,35 @@
+.preloader {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+
+
+    // display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+
+}
+
+.preloader__title {
+    @extend %title-50;
+    max-width: 66rem;
+    line-height: 5rem;
+
+}
+
+.preloader__number {
+    @extend %description-24;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+
+}
